@@ -29,7 +29,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone https://MoviesNebula:${{ secrets.GH_TOKEN }}@github.com/MoviesNebula/MoviesNebula.git mast
+           git clone https://MoviesNebula:${{ secrets.GH_TOKEN }}@github.com/MoviesNebula/Anas-Appdrive.git mast
        - name: Running Mast Bot 
          timeout-minutes: 320
          continue-on-error: true
